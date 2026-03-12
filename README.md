@@ -1,27 +1,29 @@
-<<<<<<< HEAD
-# AI Document Question Answering System
+# AI Document Question Answering (RAG)
 
-This project implements a Retrieval-Augmented Generation (RAG) pipeline.
+## Overview
+This project implements a Retrieval-Augmented Generation (RAG) system that allows users to ask questions based on document content.
 
 ## Features
-- Document embedding
-- Semantic search
-- Question answering
+- Document loading
+- Text embeddings
 - Vector similarity search
+- Retrieval-based question answering
 
 ## Tech Stack
-Python
-SentenceTransformers
-FastAPI
+- Python
+- Sentence Transformers
+- Vector embeddings
+
+## Project Structure
+app.py – main application
+embedder.py – converts text to embeddings
+vector_store.py – stores document vectors
+rag_pipeline.py – retrieval pipeline
+document_loader.py – loads documents
 
 ## How to Run
+1. Clone the repository
+2. Install dependencies
+3. Run:
 
-1. Install dependencies
-pip install -r requirements.txt
-
-2. Run application
 python app.py
-=======
-# ai-document-question-answering-rag
-AI-powered document question answering system using RAG and vector embeddings
->>>>>>> 711e542574a18b19fced1ea6d9c6692372449c3c
