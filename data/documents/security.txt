@@ -1,0 +1,5 @@
+SQL injection is a vulnerability where attackers manipulate database queries.
+
+Cross Site Scripting allows attackers to inject malicious scripts into web pages.
+
+Machine learning models learn patterns from data.
